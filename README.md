@@ -12,7 +12,7 @@ Author's information
   - [] Languages used daily
       - [x]Cantonese
       - [x] English
-      - [x] Mandarin
+      - [] Mandarin
 
 - [] Birth Place: Hong Kong
 - [] Full Name: Damien Travis Poon
