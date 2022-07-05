@@ -10,7 +10,7 @@ Author's information
 - [] Country: Canada
 - [] Languages: Cantonese, Mandarin, English
   - [] Languages used daily
-      - [x]Cantonese
+      - [x] Cantonese
       - [x] English
       - [] Mandarin
 
