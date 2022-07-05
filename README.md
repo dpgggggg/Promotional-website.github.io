@@ -10,9 +10,10 @@ Author's information
 - [] Country: Canada
 - [] Languages: Cantonese, Mandarin, English
   - [] Languages used daily
-        - [x]Cantonese
-        - [x] English
-        - [] Mandarin
+      - [x]Cantonese
+      - [x] English
+      - [x] Mandarin
+
 - [] Birth Place: Hong Kong
 - [] Full Name: Damien Travis Poon
 - [] Religion: N/A
