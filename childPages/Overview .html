@@ -10,6 +10,7 @@
     <title>childPage template</title>
 
     <noscript>Running JavaScript is not necessary in the HTML Page ... FYI: your feature to execute scripts is turned off</noscript>
+    <script src="https://kit.fontawesome.com/8ccd4fb3b1.js" crossorigin="anonymous"></script>
 <style>
     .collapsible {
       background-color: #777;
@@ -34,20 +35,64 @@
       transition: max-height 0.2s ease-out;
       background-color: #f1f1f1;
     }
+    ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(50, 50, 50);
+        }
+        
+        li {
+          float: right;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 24px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #111111;
+        }
+        *{
+        margin: 0px;
+        padding:0px;
+        box-sizing:border-box;
+        }
+        div {border: thin line black;}
+        * {box-sizing: border-box;}
+        .header {
+            /border: 1px solid red;
+            width: 300px;
+            float: left;}
     </style>
 </head>
 
 <body style="background-color:lightgray;">
-    <header style="background-color:rgb(64,64,64); color: white; text-align: center;"><h1 font-size:3vw>What is speech impediment?</header>
-    <nav>Navigation</nav>
-    <aside>Overview of speech impediment</aside>
+  <div class="header"><header style="background-color:rgb(50,50,50); color: white; text-align: center;"><h1> <i class="fa-solid fa-comment-slash"></i>Speech Impediment
+  </header></div>
+    
+      <nav><h2>
+      <ul>
+          <li><a href="../index.html" target="_blank">Home</a></li>
+          <li><a href="Overview .html" target="_blank">Overview</a>
+          <li><a href="Treatment and Diagnosis.html">Treatment and Diagnosis</a></li>
+          <li><a href=""></a></li>
+        </ul>
+  </h2></nav>
+    <aside></aside>
     <section>
-        <header><h2>What is speech impediment?</header>
-        <article><p><h3 style="font-size:1vw ;">    Speech impediment, or speech disorder, happens when a persons mouth, jaw, tongue and vocal tract 
-            <br>cannot work together to produce words, making it difficult for others to understand them. In some cases,
-             <br>a speech impediment is a sign of physical or developmental differences.
-             If untreated, speech impediment <br>can make it difficult to learn to read and write. </p>
-            <p><h2>Types of speech impediment<br><br>
+      <br>
+        <header><h2><pre>   <i class="fa-solid fa-magnifying-glass"></i> What is speech impediment?</pre></header>
+          <br>
+        <article><p><h3 style="font-size:1vw ;"><pre>     Speech impediment, or speech disorder, happens when a persons mouth, jaw, tongue and vocal tract <br>     cannot work together to produce words, making it difficult for others to understand them. In some cases,<br>     a speech impediment is a sign of physical or developmental differences.If untreated, speech impediment <br>     can make it difficult to learn to read and write.</pre></p>
+            <br>
+            <br>
+          <p><h2><pre>   Types of speech impediment:</pre><br>
             <button class="collapsible">Stuttering   <sub><small>(click for more info)</small></sub></button>
             <div class="content">
               <p><h3 style="font-size:1vw ;">This condition mean a delay in development
@@ -74,10 +119,46 @@
               <p><h3 style="font-size:1vw ;">This condition happens when one slurs their words because of brain damage.</p>
             </div>
             <br>
-            <button class="collapsible">selective mutism   <sub><small>(click for more info)</small></sub></button>
+            <button class="collapsible">Selective mutism   <sub><small>(click for more info)</small></sub></button>
             <div class="content">
               <p><h3 style="font-size:1vw ;">This condition happens when one becomes so anxious about being in certain places and situations that they can't speak.</p>
             </div>
+            <br>
+            <br>
+            <p><pre>
+              <h3>   <i class="fa-solid fa-question"></i> Causes for speech impediments</h3>
+            <h3 style="font-size:1vw;">   There's different causes for speech impediments. An example would be stuttering, which might be a sign of a developmental <br>   delay, or it could be hereditary or it could happen because a child's brain can't coordinate the functions that help them to speak.
+   Tongue-tie, on the other hand, is a physical condition that makes it hard for your child to move their tongue.
+   Speech impediments can also indicate an unrelated underlying condition, such as:</h3>
+ </pre></h2></p>
+          <br>
+          <button class="collapsible">Autism Spectrum Disorder <sub><small>(click for more info)</small></sub></button>
+          <div class="content">
+            <p><h3 style="font-size:1vw ;">People with ASD have trouble with social interactions and with interpreting and using non-verbal and verbal communication.</p>
+          </div>
+          <br>
+          <button class="collapsible">Dyslexia  <sub><small>(click for more info)</small></sub></button>
+          <div class="content">
+            <p><h3 style="font-size:1vw ;">This is a common learning disability that makes it difficult for people to read.</p>
+          </div>
+          <br>
+          <button class="collapsible">Cerebral palsy   <sub><small>(click for more info)</small></sub></button>
+          <div class="content">
+            <p><h3 style="font-size:1vw ;">People with cerebral palsy have trouble coordinating their muscles, movement and coordination.</p>
+          </div>
+          <br>
+          <button class="collapsible">Hearing loss   <sub><small>(click for more info)</small></sub></button>
+          <div class="content">
+            <p><h3 style="font-size:1vw ;">Hearing loss in children is one of the most common congenital disorders.</p>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+        
 
 
 
@@ -111,7 +192,11 @@
 </body>
 <footer>
    <blockquote cite="https://my.clevelandclinic.org/health/diseases/21937-speech-impediment"></blockquote>
-    <em><a href="/README.md" target="_blank">Authors information</a></em>
+    <em><a href="../README.md" target="_blank">Authors information</a></em>
     <p>&copy Damien Poon, powered by dpgggggg in Github</p>
+    <ul><header style="color: white ;">Sources:</header>
+      <li style="text-align: left ;"><blockquote cite="https://my.clevelandclinic.org/health/diseases/21937-speech-impediment"></blockquote>
+        <a href="https://my.clevelandclinic.org/health/diseases/21937-speech-impediment" target="_blank">Cleaveland clinic</a>
+    </ul>
 </footer>
 </html>
